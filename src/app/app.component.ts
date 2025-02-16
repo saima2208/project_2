@@ -1,12 +1,19 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+
+import { TableComponent } from './table/table.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [TableComponent],
   templateUrl: './app.component.html',
+  // template:`
+  
+  // `,
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'project_2';
-}
+  
+    
+    }
+    
+

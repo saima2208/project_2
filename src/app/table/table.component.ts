@@ -34,6 +34,22 @@ users =[
     class:'Four',
     city: 'Dhaka',
     picture:"https://randomuser.me/api/portraits/lego/0.jpg"
+  },
+
+  {
+    id:4,
+    name :'Ayaan',
+    class:'Three',
+    city: 'Khulna',
+    picture:"https://randomuser.me/api/portraits/lego/2.jpg"
+  },
+
+  {
+    id:5,
+    name :'Anas',
+    class:'Two',
+    city: 'Jessor',
+    picture:"https://randomuser.me/api/portraits/lego/4.jpg"
   }
 
  

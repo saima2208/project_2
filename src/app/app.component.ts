@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 import { TableComponent } from './table/table.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { CardsComponent } from './cards/cards.component';
+import { HeaderComponent } from './header/header.component';
 
 @Component({
   selector: 'app-root',
-  imports: [TableComponent],
+  imports: [SidebarComponent,HeaderComponent],
   templateUrl: './app.component.html',
   // template:`
   
